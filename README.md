@@ -4,11 +4,12 @@
 
 ### Color Palette (working)
 
-<https://coolors.co/518999-75b7b7-995b58-3d6b4b-99b272>
+-   <https://coolors.co/518999-75b7b7-995b58-3d6b4b-99b272>
 
 ### Reference Images (working)
 
-<https://unsplash.com/collections/8806934/build-week-water-da-plants>
+-   <https://unsplash.com/collections/8812569/build-week-water-da-plants-survey>
+-   <https://unsplash.com/collections/8806934/build-week-water-da-plants-pink-flowers>
 
 ### Typography
 
