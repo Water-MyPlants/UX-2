@@ -14,6 +14,15 @@
 body {
   & > * {
     .ma-tblr(0 , auto);
-    .pa-lr(@w-6);
+
+    @media @is-desktop {
+      .pa-lr(@w-7);
+    }
+    @media @is-tablet {
+      .pa-lr(@w-6);
+    }
+    @media @is-phone {
+      .pa-lr(@w-5);
+    }
   }
 }
