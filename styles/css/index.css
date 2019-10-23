@@ -230,10 +230,17 @@ p:last-child {
   margin-bottom: 0;
 }
 header {
+  display: flex ;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
   background-color: #3D6B4B;
   color: #eee;
+  width: 100%;
 }
 header .navbar {
+  align-self: stretch;
   display: flex ;
   flex-flow: row nowrap;
   justify-content: space-between;
@@ -274,6 +281,16 @@ header .navbar nav a:hover {
   background-color: do-not-change;
   color: inherit;
   text-decoration: underline;
+}
+footer {
+  display: flex ;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  background-color: #333;
+  color: #eee;
+  width: 100%;
 }
 body > * {
   margin-top: 0;
