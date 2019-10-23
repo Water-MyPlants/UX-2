@@ -442,7 +442,8 @@ body.home .features .feature.card .info {
   padding-right: 8px;
 }
 body.home .features .feature.card .cool {
-  height: 128px;
+  min-height: 128px;
+  min-width: 128px;
 }
 body.home .features .feature.card:nth-of-type(3n) .cool {
   background-color: #518999;
@@ -461,7 +462,15 @@ body.home .target-users .target-users.wrapper {
   align-items: stretch;
 }
 body.home .target-users .target-user.card {
+  margin-top: 8px;
+  margin-bottom: 8px;
+  margin-left: 8px;
+  margin-right: 8px;
   width: 100%;
+}
+body.home .target-users .target-user.card .cool {
+  min-height: 256px;
+  min-width: 256px;
 }
 body.home .target-users .target-user.card:nth-of-type(2n+1) {
   display: flex ;
@@ -535,8 +544,17 @@ body.home .target-users .target-user.card:nth-of-type(2n) .info {
   padding-left: 8px;
   padding-right: 8px;
 }
+body.home .target-users .target-user.card:nth-of-type(3n) .cool {
+  background-color: #518999;
+}
+body.home .target-users .target-user.card:nth-of-type(3n+1) .cool {
+  background-color: #75B7B7;
+}
+body.home .target-users .target-user.card:nth-of-type(3n+2) .cool {
+  background-color: #995B58;
+}
 @media only screen and (max-width: 500px) {
-  body.home .target-users .target-user.card {
+  body.home .target-users .target-user.card:nth-of-type(1n) {
     display: flex ;
     flex-flow: column nowrap;
     justify-content: center;
@@ -551,7 +569,7 @@ body.home .target-users .target-user.card:nth-of-type(2n) .info {
     overflow: hidden;
     flex-direction: column;
   }
-  body.home .target-users .target-user.card .cool {
+  body.home .target-users .target-user.card:nth-of-type(1n) .cool {
     margin-top: 0;
     margin-bottom: 0;
     margin-left: 0;
@@ -562,7 +580,7 @@ body.home .target-users .target-user.card:nth-of-type(2n) .info {
     padding-right: 0;
     overflow: hidden;
   }
-  body.home .target-users .target-user.card .info {
+  body.home .target-users .target-user.card:nth-of-type(1n) .info {
     margin-top: 0;
     margin-bottom: 0;
     margin-left: 0;

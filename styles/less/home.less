@@ -20,9 +20,10 @@ body.home {
       flex-shrink: 1;
 
       .cool {
-        height: @w-8;
+        .min-size-hw(@w-8);
       }
 
+      /// alternating colors
       &:nth-of-type(3n) {
         .cool {
           background-color: @color-1;
@@ -47,8 +48,14 @@ body.home {
     }
 
     .target-user.card {
+      .ma-tblr(@w-4);
       width: 100%;
 
+      .cool {
+        .min-size-hw(2 * @w-8);
+      }
+
+      /// alternating layout
       &:nth-of-type(2n+1) {
         .x-card(l-r);
       }
@@ -56,8 +63,28 @@ body.home {
         .x-card(r-l);
       }
 
+      /// alternating colors
+      &:nth-of-type(3n) {
+        .cool {
+          background-color: @color-1;
+        }
+      }
+      &:nth-of-type(3n+1) {
+        .cool {
+          background-color: @color-2;
+        }
+      }
+      &:nth-of-type(3n+2) {
+        .cool {
+          background-color: @color-3;
+        }
+      }
+
+      /// reshape when on phone
       @media @is-phone {
-        .x-card(t-b);
+        &:nth-of-type(1n) { // need this for higher specificity
+          .x-card(t-b);
+        }
       }
     }
   }
