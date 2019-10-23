@@ -157,13 +157,14 @@ table {
 html {
   width: 100%;
   font-size: 62.5%;
+  font-family: 'Rubik', sans-serif;
+  color: #333;
+  background-color: #eee;
 }
 body {
   width: 100%;
   font-size: 1.6rem;
   line-height: 1.2;
-  font-family: 'Rubik', sans-serif;
-  color: #333;
 }
 h1,
 h2,
@@ -235,7 +236,6 @@ header {
   justify-content: center;
   align-content: center;
   align-items: center;
-  width: 100%;
   padding-top: 16px;
   padding-bottom: 16px;
   background-color: #3D6B4B;
@@ -317,6 +317,8 @@ main section {
   align-items: center;
   padding-top: 64px;
   padding-bottom: 64px;
+  background-color: white;
+  color: inherit;
 }
 .init-cta {
   display: flex ;
@@ -324,6 +326,8 @@ main section {
   justify-content: center;
   align-content: center;
   align-items: center;
+  margin-left: 0;
+  margin-right: 0;
   background-color: #518999;
   color: #eee;
 }
@@ -348,6 +352,8 @@ main section {
   justify-content: center;
   align-content: center;
   align-items: center;
+  margin-left: 0;
+  margin-right: 0;
   background-color: #99B272;
   color: #eee;
 }
@@ -357,7 +363,6 @@ footer {
   justify-content: center;
   align-content: center;
   align-items: center;
-  width: 100%;
   padding-top: 32px;
   padding-bottom: 32px;
   background-color: #333;
@@ -380,28 +385,48 @@ footer .brand.logo img.placeholder {
   background-color: #eee;
   border-color: #eee;
 }
-body > * {
-  margin-top: 0;
-  margin-bottom: 0;
-  margin-left: auto;
-  margin-right: auto;
+body > header,
+body > footer {
+  margin-left: 0;
+  margin-right: 0;
 }
 @media only screen and (min-width: 801px) {
-  body > * {
-    padding-left: 64px;
-    padding-right: 64px;
+  body > header > .wrapper,
+  body > footer > .wrapper {
+    margin-left: 64px;
+    margin-right: 64px;
   }
 }
 @media only screen and (min-width: 501px) and (max-width: 800px) {
-  body > * {
-    padding-left: 32px;
-    padding-right: 32px;
+  body > header > .wrapper,
+  body > footer > .wrapper {
+    margin-left: 32px;
+    margin-right: 32px;
   }
 }
 @media only screen and (max-width: 500px) {
-  body > * {
-    padding-left: 16px;
-    padding-right: 16px;
+  body > header > .wrapper,
+  body > footer > .wrapper {
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+}
+@media only screen and (min-width: 801px) {
+  body > main {
+    margin-left: 64px;
+    margin-right: 64px;
+  }
+}
+@media only screen and (min-width: 501px) and (max-width: 800px) {
+  body > main {
+    margin-left: 32px;
+    margin-right: 32px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  body > main {
+    margin-left: 16px;
+    margin-right: 16px;
   }
 }
 @media only screen and (min-width: 801px) {

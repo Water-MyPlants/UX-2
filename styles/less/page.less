@@ -9,20 +9,17 @@
 /// footer
 @import './page-footer.less';
 
-///*********************************************************
+///*************************************
 
 body {
-  & > * {
-    .ma-tblr(0 , auto);
-
-    @media @is-desktop {
-      .pa-lr(@w-7);
+  & > header , & > footer {
+    .full-width();
+    
+    & > .wrapper {
+      .page-width();
     }
-    @media @is-tablet {
-      .pa-lr(@w-6);
-    }
-    @media @is-phone {
-      .pa-lr(@w-5);
-    }
+  }
+  & > main {
+    .page-width();
   }
 }
