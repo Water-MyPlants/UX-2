@@ -3,6 +3,20 @@
 ///*********************************************************
 
 ///*************************************
+/// corners
+///*************************************
+
+.corner-radius(@r) {
+  -webkit-border-radius: @r;
+  -moz-border-radius: @r;
+  border-radius: @r;
+}
+
+.circle() {
+  .corner-radius(50%);
+}
+
+///*************************************
 /// links
 ///*************************************
 
@@ -18,7 +32,7 @@
 .x-button(basic) {
   .pa-tb(@button-pa-tb);
   .pa-lr(@button-pa-lr);
-  border-radius: @button-corner;
+  .corner-radius(@button-corner);
 }
 
 .x-button(outline ; @back-color ; @fore-color) {
@@ -42,7 +56,7 @@
 .x-card(basic) {
   .flex-center(column ; nowrap ; stretch);
 
-  border-radius: @card-corner;
+  .corner-radius(@card-corner);
   border: @card-border-width solid @card-border-color;
   .pa(0);
   overflow: hidden;

@@ -437,6 +437,8 @@ body.home .features .feature.card {
   justify-content: center;
   align-content: center;
   align-items: stretch;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
   border-radius: 8px;
   border: 1px solid #333;
   padding-top: 0;
@@ -529,6 +531,8 @@ body.home .target-users .target-user.card:nth-of-type(2n+1) {
   justify-content: center;
   align-content: center;
   align-items: stretch;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
   border-radius: 8px;
   border: 1px solid #333;
   padding-top: 0;
@@ -580,6 +584,8 @@ body.home .target-users .target-user.card:nth-of-type(2n) {
   justify-content: center;
   align-content: center;
   align-items: stretch;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
   border-radius: 8px;
   border: 1px solid #333;
   padding-top: 0;
@@ -632,6 +638,8 @@ body.home .target-users .target-user.card:nth-of-type(2n) .info {
     justify-content: center;
     align-content: center;
     align-items: stretch;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
     border-radius: 8px;
     border: 1px solid #333;
     padding-top: 0;
@@ -691,6 +699,8 @@ body.about .our-team .team-member.card {
   justify-content: center;
   align-content: center;
   align-items: stretch;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
   border-radius: 8px;
   border: 1px solid #333;
   padding-top: 0;
@@ -769,6 +779,8 @@ body.about .our-team .team-member.card .cool {
 body.about .our-team .team-member.card .cool img.team-member.photo {
   height: 128px;
   width: 128px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
   border-radius: 50%;
   border: 2px solid #eee;
   background-color: #111;
@@ -788,16 +800,13 @@ body.about .our-team .team-member.card .cool img.team-member.photo {
 .brand.logo img.placeholder {
   height: 1.5em;
   width: 1.5em;
-  background-color: #F686BD;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
   border-radius: 50%;
+  background-color: #F686BD;
   border: 2px solid #F686BD;
 }
 .brand.logo span {
   margin-top: 0.2em;
   margin-left: 0.4em;
-}
-*,
-*:before,
-*:after {
-  outline: 1px solid #F686BD;
 }
