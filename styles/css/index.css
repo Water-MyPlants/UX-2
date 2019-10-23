@@ -161,6 +161,7 @@ html {
 body {
   width: 100%;
   font-size: 1.6rem;
+  line-height: 1.2;
   font-family: 'Rubik', sans-serif;
   color: #333;
 }
@@ -172,23 +173,61 @@ h5,
 h6 {
   font-family: 'Baloo', sans-serif;
 }
+h1:first-child,
+h2:first-child,
+h3:first-child,
+h4:first-child,
+h5:first-child,
+h6:first-child {
+  margin-top: 0;
+}
+h1:last-child,
+h2:last-child,
+h3:last-child,
+h4:last-child,
+h5:last-child,
+h6:last-child {
+  margin-bottom: 0;
+}
 h1 {
   font-size: 4.8rem;
+  margin-top: 1.6rem;
+  margin-bottom: 1.6rem;
 }
 h2 {
   font-size: 3.6rem;
+  margin-top: 1.4rem;
+  margin-bottom: 1.4rem;
 }
 h3 {
   font-size: 2.4rem;
+  margin-top: 1.2rem;
+  margin-bottom: 1.2rem;
 }
 h4 {
   font-size: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 h5 {
   font-size: 1.8rem;
+  margin-top: 0.8rem;
+  margin-bottom: 0.8rem;
 }
 h6 {
   font-size: 1.6rem;
+  margin-top: 0.6rem;
+  margin-bottom: 0.6rem;
+}
+p {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+p:first-child {
+  margin-top: 0;
+}
+p:last-child {
+  margin-bottom: 0;
 }
 .brand.logo {
   font-family: 'Modak', sans-serif;
@@ -210,4 +249,9 @@ h6 {
 .brand.logo span {
   padding-top: 0.2em;
   padding-left: 0.4em;
+}
+*,
+*:before,
+*:after {
+  outline: 1px solid #F686BD;
 }

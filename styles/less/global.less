@@ -13,34 +13,47 @@ html {
 body {
   width: 100%;
   font-size: 1.6rem;
+  line-height: 1.2;
   font-family: @main-font;
   color: @main-color;
 }
 
 h1 , h2 , h3 , h4 , h5 , h6 {
   font-family: @heading-font;
+  .end-ma-tb(0);
 }
 
 h1 {
   font-size: 4.8rem;
+  .ma-tb(1.6rem);
 }
 
 h2 {
   font-size: 3.6rem;
+  .ma-tb(1.4rem);
 }
 
 h3 {
   font-size: 2.4rem;
+  .ma-tb(1.2rem);
 }
 
 h4 {
   font-size: 2.0rem;
+  .ma-tb(1.0rem);
 }
 
 h5 {
   font-size: 1.8rem;
+  .ma-tb(0.8rem);
 }
 
 h6 {
   font-size: 1.6rem;
+  .ma-tb(0.6rem);
+}
+
+p {
+  .ma-tb(1.0rem);
+  .end-ma-tb(0);
 }
