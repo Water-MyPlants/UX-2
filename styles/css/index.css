@@ -309,6 +309,15 @@ header .navbar nav a:hover {
   color: inherit;
   text-decoration: underline;
 }
+main section {
+  display: flex ;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
 footer {
   display: flex ;
   flex-flow: column nowrap;
