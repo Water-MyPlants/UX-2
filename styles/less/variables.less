@@ -6,12 +6,12 @@
 /// media
 ///*************************************
 
-@mobile-max-width:  500px;
-@tablet-min-width:  @mobile-max-width + 1px;
+@phone-max-width:   500px;
+@tablet-min-width:  @phone-max-width + 1px;
 @tablet-max-width:  800px;
 @desktop-min-width: @tablet-max-width + 1px;
 
-@is-mobile:  ~"only screen and (max-width: @{mobile-max-width})";
+@is-phone:   ~"only screen and (max-width: @{phone-max-width})";
 @is-tablet:  ~"only screen and (min-width: @{tablet-min-width}) and (max-width: @{tablet-max-width})";
 @is-desktop: ~"only screen and (min-width: @{desktop-min-width})";
 

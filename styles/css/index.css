@@ -229,6 +229,60 @@ p:first-child {
 p:last-child {
   margin-bottom: 0;
 }
+header {
+  background-color: #3D6B4B;
+  color: #eee;
+}
+.navbar {
+  display: flex ;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-content: space-between;
+  align-items: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+@media only screen and (max-width: 500px) {
+  .navbar {
+    display: flex ;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    max-height: 20vh;
+  }
+}
+.navbar .brand.logo {
+  font-size: 3rem;
+}
+.navbar nav {
+  width: 50%;
+}
+.navbar nav ul {
+  display: flex ;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-content: space-between;
+  align-items: center;
+}
+.navbar nav a {
+  background-color: do-not-change;
+  color: inherit;
+  text-decoration: none;
+}
+.navbar nav a:hover {
+  background-color: do-not-change;
+  color: inherit;
+  text-decoration: underline;
+}
+body > * {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
 .brand.logo {
   font-family: 'Modak', sans-serif;
   display: flex ;
@@ -244,11 +298,11 @@ p:last-child {
   height: 1.6em;
   width: 1.6em;
   border-radius: 50%;
-  border: 1px solid #eee;
+  border: 2px solid #eee;
 }
 .brand.logo span {
-  padding-top: 0.2em;
-  padding-left: 0.4em;
+  margin-top: 0.2em;
+  margin-left: 0.4em;
 }
 *,
 *:before,

@@ -1,0 +1,25 @@
+.navbar {
+  .flex-space-between();
+  .pa-tb(2.0rem);
+
+  @media @is-phone {
+    .flex-center(column);
+    max-height: 20vh;
+  }
+  
+  .brand.logo {
+    font-size: 3.0rem;
+  }
+
+  nav {
+    width: 50%;
+
+    ul {
+    .flex-space-between();
+    }
+
+    a {
+      .link();
+    }
+  }
+}
