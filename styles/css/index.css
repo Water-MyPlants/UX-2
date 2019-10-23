@@ -233,7 +233,7 @@ header {
   background-color: #3D6B4B;
   color: #eee;
 }
-.navbar {
+header .navbar {
   display: flex ;
   flex-flow: row nowrap;
   justify-content: space-between;
@@ -243,7 +243,7 @@ header {
   padding-bottom: 16px;
 }
 @media only screen and (max-width: 500px) {
-  .navbar {
+  header .navbar {
     display: flex ;
     flex-flow: column nowrap;
     justify-content: center;
@@ -252,25 +252,25 @@ header {
     max-height: 12.5vh;
   }
 }
-.navbar .brand.logo {
+header .navbar .brand.logo {
   font-size: 3.6rem;
 }
-.navbar nav {
+header .navbar nav {
   width: 50%;
 }
-.navbar nav ul {
+header .navbar nav ul {
   display: flex ;
   flex-flow: row nowrap;
   justify-content: space-between;
   align-content: space-between;
   align-items: center;
 }
-.navbar nav a {
+header .navbar nav a {
   background-color: do-not-change;
   color: inherit;
   text-decoration: none;
 }
-.navbar nav a:hover {
+header .navbar nav a:hover {
   background-color: do-not-change;
   color: inherit;
   text-decoration: underline;
