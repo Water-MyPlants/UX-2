@@ -21,7 +21,15 @@ body.about {
       }
 
       .cool {
-        .min-size-hw(@w-8);
+        .flex-center();
+        .pa-tblr(@card-cool-pa);
+
+        img.team-member.photo {
+          .size-hw(@w-8);
+          border-radius: 50%;
+          border: @w-2 solid @light-color;
+          background-color: @dark-color;
+        }
       }
 
       /// alternating colors
