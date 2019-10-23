@@ -44,11 +44,24 @@
 @brand-color: #F686BD;
 
 ///*************************************
+/// sizes
+///*************************************
+
+@w-1: 1px;
+@w-2: 2px;
+@w-3: 4px;
+@w-4: 8px;
+@w-5: 16px;
+@w-6: 32px;
+@w-7: 64px;
+@w-8: 128px;
+
+///*************************************
 /// buttons
 ///*************************************
 
 @button-corner: 50%;
-@button-border-width: 4px;
+@button-border-width: @w-3;
 @button-pa-tb: 1.0em;
 @button-pa-lr: 1.5em;
 
@@ -56,8 +69,8 @@
 /// cards
 ///*************************************
 
-@card-corner: 8px;
-@card-border-width: 1px;
+@card-corner: @w-4;
+@card-border-width: @w-1;
 @card-border-color: @main-color;
 @card-info-pa-tb: @card-corner;
 @card-info-pa-lr: @card-corner;
