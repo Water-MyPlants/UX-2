@@ -6,7 +6,7 @@ body.about {
 
     .team-member.card {
       .x-card(t-b);
-      .ma-tblr(@w-4);
+      .ma(@w-4);
       // flex-grow: 1;
       // flex-shrink: 1;
 
@@ -22,40 +22,13 @@ body.about {
 
       .cool {
         .flex-center();
-        .pa-tblr(@card-cool-pa);
+        .pa(@card-cool-pa);
 
         img.team-member.photo {
           .size-hw(@w-8);
           border-radius: 50%;
           border: @w-2 solid @light-color;
           background-color: @dark-color;
-        }
-      }
-
-      /// alternating colors
-      &:nth-of-type(5n + 1) {
-        .cool {
-          background-color: @color-1;
-        }
-      }
-      &:nth-of-type(5n + 2) {
-        .cool {
-          background-color: @color-2;
-        }
-      }
-      &:nth-of-type(5n + 3) {
-        .cool {
-          background-color: @color-3;
-        }
-      }
-      &:nth-of-type(5n + 4) {
-        .cool {
-          background-color: @color-4;
-        }
-      }
-      &:nth-of-type(5n) {
-        .cool {
-          background-color: @color-5;
         }
       }
     }

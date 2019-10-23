@@ -14,7 +14,7 @@ body.home {
 
     .feature.card {
       .x-card(t-b);
-      .ma-tblr(@w-4);
+      .ma(@w-4);
       // flex-grow: 1;
       // flex-shrink: 1;
 
@@ -31,33 +31,6 @@ body.home {
       .cool {
         .min-size-hw(@w-8);
       }
-
-      /// alternating colors
-      &:nth-of-type(5n + 1) {
-        .cool {
-          background-color: @color-1;
-        }
-      }
-      &:nth-of-type(5n + 2) {
-        .cool {
-          background-color: @color-2;
-        }
-      }
-      &:nth-of-type(5n + 3) {
-        .cool {
-          background-color: @color-3;
-        }
-      }
-      &:nth-of-type(5n + 4) {
-        .cool {
-          background-color: @color-4;
-        }
-      }
-      &:nth-of-type(5n) {
-        .cool {
-          background-color: @color-5;
-        }
-      }
     }
   }
 
@@ -67,7 +40,7 @@ body.home {
     }
 
     .target-user.card {
-      .ma-tblr(@w-4);
+      .ma(@w-4);
       width: 100%;
 
       .cool {
@@ -80,33 +53,6 @@ body.home {
       }
       &:nth-of-type(2n) {
         .x-card(r-l);
-      }
-
-      /// alternating colors
-      &:nth-of-type(5n + 1) {
-        .cool {
-          background-color: @color-1;
-        }
-      }
-      &:nth-of-type(5n + 2) {
-        .cool {
-          background-color: @color-2;
-        }
-      }
-      &:nth-of-type(5n + 3) {
-        .cool {
-          background-color: @color-3;
-        }
-      }
-      &:nth-of-type(5n + 4) {
-        .cool {
-          background-color: @color-4;
-        }
-      }
-      &:nth-of-type(5n) {
-        .cool {
-          background-color: @color-5;
-        }
       }
 
       /// reshape when on phone

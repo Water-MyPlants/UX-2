@@ -52,6 +52,33 @@
     overflow: hidden;
   }
 
+  /// alternating colors
+  &:nth-of-type(5n + 1) {
+    .cool {
+      background-color: @color-1;
+    }
+  }
+  &:nth-of-type(5n + 2) {
+    .cool {
+      background-color: @color-2;
+    }
+  }
+  &:nth-of-type(5n + 3) {
+    .cool {
+      background-color: @color-3;
+    }
+  }
+  &:nth-of-type(5n + 4) {
+    .cool {
+      background-color: @color-4;
+    }
+  }
+  &:nth-of-type(5n) {
+    .cool {
+      background-color: @color-5;
+    }
+  }
+
   .info {
     .ma(0);
     .pa-tb(@card-info-pa-tb);
