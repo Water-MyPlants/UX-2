@@ -1,0 +1,64 @@
+body.home {
+  .features {
+    .features.wrapper {
+      @media @is-desktop {
+        .flex-center(row ; nowrap ; stretch);
+      }
+      @media @is-tablet {
+        .flex-center(row ; wrap ; stretch);
+      }
+      @media @is-phone {
+        .flex-center(column ; nowrap ; stretch);
+      }
+    }
+
+    .feature.card {
+      .x-card(t-b);
+      .ma-tblr(@w-4);
+      flex-basis: 33%;
+      flex-grow: 1;
+      flex-shrink: 1;
+
+      .cool {
+        height: @w-8;
+      }
+
+      &:nth-of-type(3n) {
+        .cool {
+          background-color: @color-1;
+        }
+      }
+      &:nth-of-type(3n+1) {
+        .cool {
+          background-color: @color-2;
+        }
+      }
+      &:nth-of-type(3n+2) {
+        .cool {
+          background-color: @color-3;
+        }
+      }
+    }
+  }
+
+  .target-users {
+    .target-users.wrapper {
+      .flex-center(column ; nowrap ; stretch);
+    }
+
+    .target-user.card {
+      width: 100%;
+
+      &:nth-of-type(2n+1) {
+        .x-card(l-r);
+      }
+      &:nth-of-type(2n) {
+        .x-card(r-l);
+      }
+
+      @media @is-phone {
+        .x-card(t-b);
+      }
+    }
+  }
+}
