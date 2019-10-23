@@ -161,4 +161,35 @@ html {
 body {
   width: 100%;
   font-size: 1.6rem;
+  font-family: 'Rubik', sans-serif;
+  color: #333;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Baloo', sans-serif;
+}
+.brand.logo {
+  font-family: 'Modak', sans-serif;
+  display: flex ;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+.brand.logo img {
+  background-color: #F686BD;
+}
+.brand.logo img.placeholder {
+  height: 1.6em;
+  width: 1.6em;
+  border-radius: 50%;
+  border: 1px solid #eee;
+}
+.brand.logo span {
+  padding-top: 0.2em;
+  padding-left: 0.4em;
 }
