@@ -1,5 +1,21 @@
 footer {
   .flex-center(column);
-  .footer-decor();
   width: 100%;
+  .pa-tb(@w-6);
+
+  .footer-decor();
+
+  div {
+    .ma-tb(@w-4);
+    .end-ma-tb(0);
+  }
+
+  .brand.logo {
+    font-size: 2.4rem;
+
+    img.placeholder {
+      background-color: @footer-fore-color;
+      border-color: @footer-fore-color;
+    }
+  }
 }

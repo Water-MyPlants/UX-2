@@ -1,12 +1,13 @@
 header {
   .flex-center(column);
-  .header-decor();
   width: 100%;
+  .pa-tb(@w-5);
+
+  .header-decor();
 
   .navbar {
     align-self: stretch;
     .flex-space-between();
-    .pa-tb(@w-5);
   
     @media @is-phone {
       .flex-center(column);
@@ -15,6 +16,10 @@ header {
     
     .brand.logo {
       font-size: 3.6rem;
+
+      img.placeholder {
+        border-color: @header-fore-color;
+      }
     }
   
     nav {
