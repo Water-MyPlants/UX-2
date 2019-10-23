@@ -15,9 +15,18 @@ body.home {
     .feature.card {
       .x-card(t-b);
       .ma-tblr(@w-4);
-      flex-basis: 33%;
       flex-grow: 1;
       flex-shrink: 1;
+
+      @media @is-desktop {
+        flex-basis: 30%;
+      }
+      @media @is-tablet {
+        flex-basis: 45%;
+      }
+      @media @is-phone {
+        flex-basis: 100%;
+      }
 
       .cool {
         .min-size-hw(@w-8);

@@ -3,5 +3,53 @@ body.about {
     .team-members.wrapper {
       .flex-center(row ; wrap ; stretch);
     }
+
+    .team-member.card {
+      .x-card(t-b);
+      .ma-tblr(@w-4);
+      flex-grow: 1;
+      flex-shrink: 1;
+
+      @media @is-desktop {
+        flex-basis: 30%;
+      }
+      @media @is-tablet {
+        flex-basis: 45%;
+      }
+      @media @is-phone {
+        flex-basis: 100%;
+      }
+
+      .cool {
+        .min-size-hw(@w-8);
+      }
+
+      /// alternating colors
+      &:nth-of-type(5n + 1) {
+        .cool {
+          background-color: @color-1;
+        }
+      }
+      &:nth-of-type(5n + 2) {
+        .cool {
+          background-color: @color-2;
+        }
+      }
+      &:nth-of-type(5n + 3) {
+        .cool {
+          background-color: @color-3;
+        }
+      }
+      &:nth-of-type(5n + 4) {
+        .cool {
+          background-color: @color-4;
+        }
+      }
+      &:nth-of-type(5n) {
+        .cool {
+          background-color: @color-5;
+        }
+      }
+    }
   }
 }

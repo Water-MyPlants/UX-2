@@ -416,7 +416,6 @@ body.home .features .feature.card {
   margin-bottom: 8px;
   margin-left: 8px;
   margin-right: 8px;
-  flex-basis: 33%;
   flex-grow: 1;
   flex-shrink: 1;
 }
@@ -440,6 +439,21 @@ body.home .features .feature.card .info {
   padding-bottom: 8px;
   padding-left: 8px;
   padding-right: 8px;
+}
+@media only screen and (min-width: 801px) {
+  body.home .features .feature.card {
+    flex-basis: 30%;
+  }
+}
+@media only screen and (min-width: 501px) and (max-width: 800px) {
+  body.home .features .feature.card {
+    flex-basis: 45%;
+  }
+}
+@media only screen and (max-width: 500px) {
+  body.home .features .feature.card {
+    flex-basis: 100%;
+  }
 }
 body.home .features .feature.card .cool {
   min-height: 128px;
@@ -597,6 +611,82 @@ body.about .our-team .team-members.wrapper {
   justify-content: center;
   align-content: center;
   align-items: stretch;
+}
+body.about .our-team .team-member.card {
+  display: flex ;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-content: center;
+  align-items: stretch;
+  border-radius: 8px;
+  border: 1px solid #333;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+  padding-right: 0;
+  overflow: hidden;
+  flex-direction: column;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  margin-left: 8px;
+  margin-right: 8px;
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+body.about .our-team .team-member.card .cool {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+  padding-right: 0;
+  overflow: hidden;
+}
+body.about .our-team .team-member.card .info {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+@media only screen and (min-width: 801px) {
+  body.about .our-team .team-member.card {
+    flex-basis: 30%;
+  }
+}
+@media only screen and (min-width: 501px) and (max-width: 800px) {
+  body.about .our-team .team-member.card {
+    flex-basis: 45%;
+  }
+}
+@media only screen and (max-width: 500px) {
+  body.about .our-team .team-member.card {
+    flex-basis: 100%;
+  }
+}
+body.about .our-team .team-member.card .cool {
+  min-height: 128px;
+  min-width: 128px;
+}
+body.about .our-team .team-member.card:nth-of-type(5n + 1) .cool {
+  background-color: #518999;
+}
+body.about .our-team .team-member.card:nth-of-type(5n + 2) .cool {
+  background-color: #75B7B7;
+}
+body.about .our-team .team-member.card:nth-of-type(5n + 3) .cool {
+  background-color: #995B58;
+}
+body.about .our-team .team-member.card:nth-of-type(5n + 4) .cool {
+  background-color: #3D6B4B;
+}
+body.about .our-team .team-member.card:nth-of-type(5n) .cool {
+  background-color: #99B272;
 }
 .brand.logo {
   font-family: 'Modak', sans-serif;
