@@ -1,0 +1,63 @@
+///*********************************************************
+/// variables
+///*********************************************************
+
+///*************************************
+/// media
+///*************************************
+
+@mobile-max-width:  500px;
+@tablet-min-width:  @mobile-max-width + 1px;
+@tablet-max-width:  800px;
+@desktop-min-width: @tablet-max-width + 1px;
+
+@is-mobile:  ~"only screen and (max-width: @{mobile-max-width})";
+@is-tablet:  ~"only screen and (min-width: @{tablet-min-width}) and (max-width: @{tablet-max-width})";
+@is-desktop: ~"only screen and (min-width: @{desktop-min-width})";
+
+///*************************************
+/// typography
+///*************************************
+
+@import url('https://fonts.googleapis.com/css?family=Baloo|Modak|Rubik&display=swap');
+
+@brand-font:   'Modak', sans-serif;
+@heading-font: 'Baloo', sans-serif;
+@main-font:    'Rubik', sans-serif;
+
+///*************************************
+/// colors
+///*************************************
+
+@black: black;
+@white: white;
+@main-color:  #333;
+@dark-color:  #111;
+@light-color: #eee;
+
+@color-1: #518999;
+@color-2: #75B7B7;
+@color-3: #995B58;
+@color-4: #3D6B4B;
+@color-5: #99B272;
+
+@brand-color: #F686BD;
+
+///*************************************
+/// buttons
+///*************************************
+
+@button-corner: 50%;
+@button-border-width: 4px;
+@button-pa-tb: 1.0em;
+@button-pa-lr: 1.5em;
+
+///*************************************
+/// cards
+///*************************************
+
+@card-corner: 8px;
+@card-border-width: 1px;
+@card-border-color: @main-color;
+@card-info-pa-tb: @card-corner;
+@card-info-pa-lr: @card-corner;

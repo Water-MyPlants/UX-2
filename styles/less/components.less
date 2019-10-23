@@ -1,0 +1,82 @@
+///*********************************************************
+/// components
+///*********************************************************
+
+///*************************************
+/// links
+///*************************************
+
+.link(@normal-color: inherit ; @hover-color: inherit) {
+  .default-decor(@fg-color: @normal-color);
+  .hover-decor(@fg-color: @hover-color);
+}
+
+///*************************************
+/// buttons
+///*************************************
+
+.button(basic) {
+  .pa-tb(@button-pa-tb);
+  .pa-lr(@button-pa-lr);
+  border-radius: @button-corner;
+}
+
+.button(outline ; @back-color ; @fore-color) {
+  .button(basic);
+  border: @button-border-width solid @fore-color;
+  .default-decor(@back-color ; @fore-color ; none);
+  .hover-decor(lighten(@back-color , 10%) ; @fore-color ; underline);
+}
+
+.button(solid ; @back-color ; @fore-color) {
+  .button(basic);
+  border: @button-border-width solid @back-color;
+  .default-decor(@back-color ; @fore-color ; none);
+  .hover-decor(darken(@back-color , 10%) , @fore-color ; underline);
+}
+
+///*************************************
+/// cards
+///*************************************
+
+.card(basic) {
+  .flex-center(column ; nowrap ; stretch);
+
+  border-radius: @card-corner;
+  border: @card-border-width solid @card-border-color;
+  .pa(0);
+
+  .cool {
+    .ma(0); .pa(0);
+  }
+
+  .info {
+    .ma(0);
+    .pa-tb(@card-info-pa-tb);
+    .pa-lr(@card-info-pa-lr);
+  }
+}
+
+/// top to bottom
+.card(t-b) {
+  .card(basic);
+  flex-direction: column;
+}
+
+/// bottom to top
+.card(b-t) {
+  .card(basic);
+  flex-direction: column-reverse;
+}
+
+/// left to right
+.card(l-r) {
+  .card(basic);
+  flex-direction: row;
+}
+
+/// right to left
+.card(r-l) {
+  .card(basic);
+  flex-direction: row-reverse;
+}
