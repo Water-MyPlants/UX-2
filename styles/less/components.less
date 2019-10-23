@@ -6,7 +6,7 @@
 /// links
 ///*************************************
 
-.link(@normal-color: inherit ; @hover-color: inherit) {
+.x-link(@normal-color: inherit ; @hover-color: inherit) {
   .default-decor(@fg-color: @normal-color);
   .hover-decor(@fg-color: @hover-color);
 }
@@ -15,21 +15,21 @@
 /// buttons
 ///*************************************
 
-.button(basic) {
+.x-button(basic) {
   .pa-tb(@button-pa-tb);
   .pa-lr(@button-pa-lr);
   border-radius: @button-corner;
 }
 
-.button(outline ; @back-color ; @fore-color) {
-  .button(basic);
+.x-button(outline ; @back-color ; @fore-color) {
+  .x-button(basic);
   border: @button-border-width solid @fore-color;
   .default-decor(@back-color ; @fore-color ; none);
   .hover-decor(lighten(@back-color , 10%) ; @fore-color ; underline);
 }
 
-.button(solid ; @back-color ; @fore-color) {
-  .button(basic);
+.x-button(solid ; @back-color ; @fore-color) {
+  .x-button(basic);
   border: @button-border-width solid @back-color;
   .default-decor(@back-color ; @fore-color ; none);
   .hover-decor(darken(@back-color , 10%) , @fore-color ; underline);
@@ -39,7 +39,7 @@
 /// cards
 ///*************************************
 
-.card(basic) {
+.x-card(basic) {
   .flex-center(column ; nowrap ; stretch);
 
   border-radius: @card-corner;
@@ -58,25 +58,25 @@
 }
 
 /// top to bottom
-.card(t-b) {
-  .card(basic);
+.x-card(t-b) {
+  .x-card(basic);
   flex-direction: column;
 }
 
 /// bottom to top
-.card(b-t) {
-  .card(basic);
+.x-card(b-t) {
+  .x-card(basic);
   flex-direction: column-reverse;
 }
 
 /// left to right
-.card(l-r) {
-  .card(basic);
+.x-card(l-r) {
+  .x-card(basic);
   flex-direction: row;
 }
 
 /// right to left
-.card(r-l) {
-  .card(basic);
+.x-card(r-l) {
+  .x-card(basic);
   flex-direction: row-reverse;
 }
