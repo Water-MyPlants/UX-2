@@ -718,8 +718,8 @@ body.home .features .card .info {
   }
 }
 body.home .features .card .cool {
-  min-height: 128px;
-  min-width: 128px;
+  min-height: 256px;
+  min-width: 256px;
 }
 body.home .features .card .cool > * {
   height: 100%;
@@ -777,9 +777,21 @@ body.home .target-users .target-user.card {
   margin-right: 8px;
   flex-basis: 100%;
 }
+body.home .target-users .target-user.card > * {
+  flex-basis: 50%;
+}
 body.home .target-users .target-user.card .cool {
   min-height: 256px;
-  min-width: 256px;
+  flex-shrink: 1;
+  flex-grow: 1;
+}
+body.home .target-users .target-user.card .cool > * {
+  height: 100%;
+  width: 100%;
+}
+body.home .target-users .target-user.card .info {
+  flex-shrink: 4;
+  flex-grow: 1;
 }
 body.home .target-users .target-user.card:nth-of-type(2n+1) {
   display: flex ;
@@ -946,28 +958,28 @@ body.home .target-users .target-user.card:nth-of-type(2n) .info {
   }
 }
 body.home .target-users #target-user--casual-gardeners .target-user.image {
-  background-image: url();
+  background-image: url('../../images/target-users/freddie-marriage-UcfKYTan-LU-unsplash.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   background-clip: padding-box;
-  filter: blur(2px);
+  filter: none;
 }
 body.home .target-users #target-user--home-gardeners .target-user.image {
-  background-image: url();
+  background-image: url('../../images/target-users/cherry-laithang-DEAIMSWjxxI-unsplash.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   background-clip: padding-box;
-  filter: blur(2px);
+  filter: none;
 }
 body.home .target-users #target-user--industry .target-user.image {
-  background-image: url();
+  background-image: url('../../images/target-users/christin-noelle-kwJfZxunoHc-unsplash.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   background-clip: padding-box;
-  filter: blur(2px);
+  filter: none;
 }
 body.about .our-team .team-members.wrapper {
   display: flex ;

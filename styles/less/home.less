@@ -29,7 +29,7 @@ body.home {
       }
 
       .cool {
-        .min-size-hw(@w-8);
+        .min-size-hw(2 * @w-8);
 
         & > * {
           .size-hw(100%);
@@ -92,8 +92,23 @@ body.home {
       .ma(@w-4);
       flex-basis: 100%;
 
+      & > * {
+        flex-basis: 50%;
+      }
+
       .cool {
-        .min-size-hw(2 * @w-8);
+        min-height: (2 * @w-8);
+        flex-shrink: 1;
+        flex-grow: 1;
+
+        & > * {
+          .size-hw(100%);
+        }
+      }
+
+      .info {
+        flex-shrink: 4;
+        flex-grow: 1;
       }
 
       /// alternating layout
@@ -118,24 +133,24 @@ body.home {
     #target-user--casual-gardeners {
       .target-user.image {
         .x-back-image(
-          @image:  url() ;
-          @filter: blur(@w-2)
+          @image:  url('../../images/target-users/freddie-marriage-UcfKYTan-LU-unsplash.jpg') ;
+          @filter: none
         )
       }
     }
     #target-user--home-gardeners {
       .target-user.image {
         .x-back-image(
-          @image:  url() ;
-          @filter: blur(@w-2)
+          @image:  url('../../images/target-users/cherry-laithang-DEAIMSWjxxI-unsplash.jpg') ;
+          @filter: none
         )
       }
     }
     #target-user--industry {
       .target-user.image {
         .x-back-image(
-          @image:  url() ;
-          @filter: blur(@w-2)
+          @image:  url('../../images/target-users/christin-noelle-kwJfZxunoHc-unsplash.jpg') ;
+          @filter: none
         )
       }
     }
