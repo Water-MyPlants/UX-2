@@ -6,16 +6,6 @@
   .full-width();
   .init-cta-decor();
 
-  @media @is-desktop {
-    font-size: 3.6rem;
-  }
-  @media @is-tablet {
-    font-size: 3.0rem;
-  }
-  @media @is-phone {
-    font-size: 2.4rem;
-  }
-
   .hero-image {
     height: 100%;
     width: 100%;
@@ -32,6 +22,20 @@
 
     p {
       .x-text-shadow();
+      
+      @media @is-desktop {
+        font-size: 3.6rem;
+      }
+      @media @is-tablet {
+        font-size: 3.0rem;
+      }
+      @media @is-phone {
+        font-size: 2.4rem;
+      }
+    }
+
+    .button.sign-up {
+      .x-button(solid ; @init-cta-fore-color ; @dark-color);
     }
   }
 }

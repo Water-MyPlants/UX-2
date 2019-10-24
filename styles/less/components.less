@@ -50,9 +50,11 @@
 ///*************************************
 
 .x-button(basic) {
-  .pa-tb(@button-pa-tb);
+  display: inline-block;
+  // height: @button-height;
+  .corner-radius(@button-corner); // sorta a hack to make button pill shaped
   .pa-lr(@button-pa-lr);
-  .corner-radius(@button-corner);
+  vertical-align: middle;
 }
 
 .x-button(outline ; @back-color ; @fore-color) {

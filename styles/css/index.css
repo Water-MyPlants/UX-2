@@ -330,21 +330,6 @@ main section {
   background-color: #518999;
   color: #eee;
 }
-@media only screen and (min-width: 801px) {
-  .init-cta {
-    font-size: 3.6rem;
-  }
-}
-@media only screen and (min-width: 501px) and (max-width: 800px) {
-  .init-cta {
-    font-size: 3rem;
-  }
-}
-@media only screen and (max-width: 500px) {
-  .init-cta {
-    font-size: 2.4rem;
-  }
-}
 .init-cta .hero-image {
   height: 100%;
   width: 100%;
@@ -362,6 +347,39 @@ main section {
 }
 .init-cta .blurb p {
   text-shadow: 0px 0px 0.2em #111, -2px -2px 0.2em #111, -2px 2px 0.2em #111, 2px -2px 0.2em #111, 2px 2px 0.2em #111;
+}
+@media only screen and (min-width: 801px) {
+  .init-cta .blurb p {
+    font-size: 3.6rem;
+  }
+}
+@media only screen and (min-width: 501px) and (max-width: 800px) {
+  .init-cta .blurb p {
+    font-size: 3rem;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .init-cta .blurb p {
+    font-size: 2.4rem;
+  }
+}
+.init-cta .blurb .button.sign-up {
+  display: inline-block;
+  -webkit-border-radius: 0.9em;
+  -moz-border-radius: 0.9em;
+  border-radius: 0.9em;
+  padding-left: 0.45em;
+  padding-right: 0.45em;
+  vertical-align: middle;
+  border: 2px solid #eee;
+  background-color: #eee;
+  color: #111;
+  text-decoration: none;
+}
+.init-cta .blurb .button.sign-up:hover {
+  background-color: #d5d5d5, #111;
+  color: underline;
+  text-decoration: underline;
 }
 .exit-cta {
   display: flex ;

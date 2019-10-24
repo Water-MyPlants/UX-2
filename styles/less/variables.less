@@ -60,21 +60,22 @@
 /// buttons
 ///*************************************
 
-@button-corner: 50%;
-@button-border-width: @w-3;
-@button-pa-tb: 1.0em;
-@button-pa-lr: 1.5em;
+@button-height:       1.8em;
+@button-corner:       (@button-height / 2);
+@button-border-width: @w-2;
+@button-pa-tb:        (@button-corner / 2);
+@button-pa-lr:        (@button-corner / 2);
 
 ///*************************************
 /// cards
 ///*************************************
 
-@card-corner: @w-4;
+@card-corner:       @w-4;
 @card-border-width: @w-1;
 @card-border-color: lighten(@main-color , 50%);
-@card-cool-pa: @card-corner;
-@card-info-pa-tb: @card-corner;
-@card-info-pa-lr: @card-corner;
+@card-cool-pa:      @card-corner;
+@card-info-pa-tb:   @card-corner;
+@card-info-pa-lr:   @card-corner;
 
 ///*********************************************************
 /// page component styles
