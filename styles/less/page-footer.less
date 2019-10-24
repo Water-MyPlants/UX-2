@@ -3,9 +3,10 @@ footer {
   .pa-tb(@w-6);
 
   .footer-decor();
+  font-size: 1.2rem;
 
   div {
-    .ma-tb(@w-4);
+    .ma-tb(@w-5);
     .end-ma-tb(0);
   }
 
@@ -15,6 +16,18 @@ footer {
     img.placeholder {
       background-color: @footer-fore-color;
       border-color: @footer-fore-color;
+    }
+  }
+
+  .thanks {
+    * {
+      .ma-tb(@w-4);
+      .end-ma-tb(0);
+    }
+
+    a {
+      .default-decor(none ; @brand-color ; none);
+      .hover-decor(none ; @brand-color ; underline);
     }
   }
 }
