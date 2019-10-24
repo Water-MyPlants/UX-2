@@ -322,11 +322,13 @@ header .navbar nav a:hover {
 }
 header .navbar nav .button.sign-up {
   display: inline-block;
-  -webkit-border-radius: 0.9em;
-  -moz-border-radius: 0.9em;
-  border-radius: 0.9em;
-  padding-left: 0.45em;
-  padding-right: 0.45em;
+  -webkit-border-radius: 1.8em;
+  -moz-border-radius: 1.8em;
+  border-radius: 1.8em;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+  padding-left: 1em;
+  padding-right: 1em;
   border: 2px solid #eee;
   background-color: #eee;
   color: #3D6B4B;
@@ -339,11 +341,13 @@ header .navbar nav .button.sign-up:hover {
 }
 header .navbar nav .button.log-in {
   display: inline-block;
-  -webkit-border-radius: 0.9em;
-  -moz-border-radius: 0.9em;
-  border-radius: 0.9em;
-  padding-left: 0.45em;
-  padding-right: 0.45em;
+  -webkit-border-radius: 1.8em;
+  -moz-border-radius: 1.8em;
+  border-radius: 1.8em;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+  padding-left: 1em;
+  padding-right: 1em;
   border: 2px solid #eee;
   background-color: rgba(238, 238, 238, 0);
   color: #eee;
@@ -422,11 +426,13 @@ main section {
 }
 .init-cta .blurb .button.sign-up {
   display: inline-block;
-  -webkit-border-radius: 0.9em;
-  -moz-border-radius: 0.9em;
-  border-radius: 0.9em;
-  padding-left: 0.45em;
-  padding-right: 0.45em;
+  -webkit-border-radius: 1.8em;
+  -moz-border-radius: 1.8em;
+  border-radius: 1.8em;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+  padding-left: 1em;
+  padding-right: 1em;
   border: 2px solid #eee;
   background-color: #eee;
   color: #111;
@@ -439,11 +445,13 @@ main section {
 }
 .init-cta .blurb .button.log-in {
   display: inline-block;
-  -webkit-border-radius: 0.9em;
-  -moz-border-radius: 0.9em;
-  border-radius: 0.9em;
-  padding-left: 0.45em;
-  padding-right: 0.45em;
+  -webkit-border-radius: 1.8em;
+  -moz-border-radius: 1.8em;
+  border-radius: 1.8em;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+  padding-left: 1em;
+  padding-right: 1em;
   border: 2px solid #eee;
   background-color: rgba(238, 238, 238, 0);
   color: #eee;
@@ -477,11 +485,13 @@ main section {
 }
 .exit-cta .button.sign-up {
   display: inline-block;
-  -webkit-border-radius: 0.9em;
-  -moz-border-radius: 0.9em;
-  border-radius: 0.9em;
-  padding-left: 0.45em;
-  padding-right: 0.45em;
+  -webkit-border-radius: 1.8em;
+  -moz-border-radius: 1.8em;
+  border-radius: 1.8em;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+  padding-left: 1em;
+  padding-right: 1em;
   border: 2px solid #eee;
   background-color: #eee;
   color: #99B272;
@@ -494,11 +504,13 @@ main section {
 }
 .exit-cta .button.log-in {
   display: inline-block;
-  -webkit-border-radius: 0.9em;
-  -moz-border-radius: 0.9em;
-  border-radius: 0.9em;
-  padding-left: 0.45em;
-  padding-right: 0.45em;
+  -webkit-border-radius: 1.8em;
+  -moz-border-radius: 1.8em;
+  border-radius: 1.8em;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+  padding-left: 1em;
+  padding-right: 1em;
   border: 2px solid #eee;
   background-color: rgba(238, 238, 238, 0);
   color: #eee;
