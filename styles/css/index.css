@@ -570,6 +570,9 @@ footer .thanks a:hover {
   color: #F686BD;
   text-decoration: underline;
 }
+footer .copyright {
+  text-align: center;
+}
 body > header,
 body > footer {
   margin-left: 0;
