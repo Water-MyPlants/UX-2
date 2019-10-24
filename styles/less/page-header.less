@@ -48,6 +48,13 @@ header {
       a {
         .x-link();
       }
+
+      .button.sign-up {
+        .x-button(solid ; @header-fore-color ; @header-back-color);
+      }
+      .button.log-in {
+        .x-button(outline ; fadeout(@header-fore-color ; 100%) ; @header-fore-color);
+      }
     }
   }
 }

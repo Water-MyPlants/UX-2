@@ -12,4 +12,16 @@
   // @media @is-phone {
   //   font-size: 2.4rem;
   // }
+  
+  div.sign-up , div.log-in {
+    .flex-center(column);
+    .ma-tb(@w-4);
+  }
+
+  .button.sign-up {
+    .x-button(solid ; @exit-cta-fore-color ; @exit-cta-back-color);
+  }
+  .button.log-in {
+    .x-button(outline ; fadeout(@exit-cta-fore-color ; 100%) ; @exit-cta-fore-color);
+  }
 }

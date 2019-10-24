@@ -310,6 +310,40 @@ header .navbar nav a:hover {
   color: inherit;
   text-decoration: underline;
 }
+header .navbar nav .button.sign-up {
+  display: inline-block;
+  -webkit-border-radius: 0.9em;
+  -moz-border-radius: 0.9em;
+  border-radius: 0.9em;
+  padding-left: 0.45em;
+  padding-right: 0.45em;
+  border: 2px solid #eee;
+  background-color: #eee;
+  color: #3D6B4B;
+  text-decoration: none;
+}
+header .navbar nav .button.sign-up:hover {
+  background-color: rgba(238, 238, 238, 0.8);
+  color: #3D6B4B;
+  text-decoration: underline;
+}
+header .navbar nav .button.log-in {
+  display: inline-block;
+  -webkit-border-radius: 0.9em;
+  -moz-border-radius: 0.9em;
+  border-radius: 0.9em;
+  padding-left: 0.45em;
+  padding-right: 0.45em;
+  border: 2px solid #eee;
+  background-color: rgba(238, 238, 238, 0);
+  color: #eee;
+  text-decoration: none;
+}
+header .navbar nav .button.log-in:hover {
+  background-color: rgba(238, 238, 238, 0.2);
+  color: #eee;
+  text-decoration: underline;
+}
 main section {
   display: flex ;
   flex-flow: column nowrap;
@@ -363,6 +397,19 @@ main section {
     font-size: 2.4rem;
   }
 }
+.init-cta .blurb p:last-of-type {
+  margin-bottom: 32px;
+}
+.init-cta .blurb .buttons > * {
+  margin-left: 8px;
+  margin-right: 8px;
+}
+.init-cta .blurb .buttons > *:first-child {
+  margin-left: 0;
+}
+.init-cta .blurb .buttons > *:last-child {
+  margin-right: 0;
+}
 .init-cta .blurb .button.sign-up {
   display: inline-block;
   -webkit-border-radius: 0.9em;
@@ -370,15 +417,31 @@ main section {
   border-radius: 0.9em;
   padding-left: 0.45em;
   padding-right: 0.45em;
-  vertical-align: middle;
   border: 2px solid #eee;
   background-color: #eee;
   color: #111;
   text-decoration: none;
 }
 .init-cta .blurb .button.sign-up:hover {
-  background-color: #d5d5d5, #111;
-  color: underline;
+  background-color: rgba(238, 238, 238, 0.8);
+  color: #111;
+  text-decoration: underline;
+}
+.init-cta .blurb .button.log-in {
+  display: inline-block;
+  -webkit-border-radius: 0.9em;
+  -moz-border-radius: 0.9em;
+  border-radius: 0.9em;
+  padding-left: 0.45em;
+  padding-right: 0.45em;
+  border: 2px solid #eee;
+  background-color: rgba(238, 238, 238, 0);
+  color: #eee;
+  text-decoration: none;
+}
+.init-cta .blurb .button.log-in:hover {
+  background-color: rgba(238, 238, 238, 0.2);
+  color: #eee;
   text-decoration: underline;
 }
 .exit-cta {
@@ -391,6 +454,50 @@ main section {
   margin-right: 0;
   background-color: #99B272;
   color: #eee;
+}
+.exit-cta div.sign-up,
+.exit-cta div.log-in {
+  display: flex ;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+.exit-cta .button.sign-up {
+  display: inline-block;
+  -webkit-border-radius: 0.9em;
+  -moz-border-radius: 0.9em;
+  border-radius: 0.9em;
+  padding-left: 0.45em;
+  padding-right: 0.45em;
+  border: 2px solid #eee;
+  background-color: #eee;
+  color: #99B272;
+  text-decoration: none;
+}
+.exit-cta .button.sign-up:hover {
+  background-color: rgba(238, 238, 238, 0.8);
+  color: #99B272;
+  text-decoration: underline;
+}
+.exit-cta .button.log-in {
+  display: inline-block;
+  -webkit-border-radius: 0.9em;
+  -moz-border-radius: 0.9em;
+  border-radius: 0.9em;
+  padding-left: 0.45em;
+  padding-right: 0.45em;
+  border: 2px solid #eee;
+  background-color: rgba(238, 238, 238, 0);
+  color: #eee;
+  text-decoration: none;
+}
+.exit-cta .button.log-in:hover {
+  background-color: rgba(238, 238, 238, 0.2);
+  color: #eee;
+  text-decoration: underline;
 }
 footer {
   display: flex ;
