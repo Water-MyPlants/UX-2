@@ -1,5 +1,8 @@
 .init-cta {
-  .flex-center(); // center contents
+  position: relative;
+  height: 360px;
+  padding: 0;
+  // .flex-center(column); // center contents
   .full-width();
   .init-cta-decor();
 
@@ -11,5 +14,24 @@
   }
   @media @is-phone {
     font-size: 2.4rem;
+  }
+
+  .hero-image {
+    height: 100%;
+    width: 100%;
+    .x-back-image(
+      @image:  url('https://images.unsplash.com/photo-1569135393135-c151f480100b') ;
+      @filter: blur(@w-1)
+    );
+  }
+
+  .blurb {
+    position: absolute;
+    top: @w-7;
+    left: @w-7;
+
+    p {
+      .x-text-shadow();
+    }
   }
 }

@@ -322,11 +322,9 @@ main section {
   color: inherit;
 }
 .init-cta {
-  display: flex ;
-  flex-flow: row nowrap;
-  justify-content: center;
-  align-content: center;
-  align-items: center;
+  position: relative;
+  height: 360px;
+  padding: 0;
   margin-left: 0;
   margin-right: 0;
   background-color: #518999;
@@ -347,9 +345,27 @@ main section {
     font-size: 2.4rem;
   }
 }
+.init-cta .hero-image {
+  height: 100%;
+  width: 100%;
+  background-image: url('https://images.unsplash.com/photo-1569135393135-c151f480100b');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-clip: padding-box;
+  filter: blur(1px);
+}
+.init-cta .blurb {
+  position: absolute;
+  top: 64px;
+  left: 64px;
+}
+.init-cta .blurb p {
+  text-shadow: 0px 0px 0.2em #111, -2px -2px 0.2em #111, -2px 2px 0.2em #111, 2px -2px 0.2em #111, 2px 2px 0.2em #111;
+}
 .exit-cta {
   display: flex ;
-  flex-flow: row nowrap;
+  flex-flow: column nowrap;
   justify-content: center;
   align-content: center;
   align-items: center;
