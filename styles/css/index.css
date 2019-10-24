@@ -572,7 +572,7 @@ body > footer {
   }
 }
 @media only screen and (min-width: 801px) {
-  body.home .features .features.wrapper {
+  body.home .features .wrapper {
     display: flex ;
     flex-flow: row nowrap;
     justify-content: center;
@@ -581,7 +581,7 @@ body > footer {
   }
 }
 @media only screen and (min-width: 501px) and (max-width: 800px) {
-  body.home .features .features.wrapper {
+  body.home .features .wrapper {
     display: flex ;
     flex-flow: row wrap;
     justify-content: center;
@@ -590,7 +590,7 @@ body > footer {
   }
 }
 @media only screen and (max-width: 500px) {
-  body.home .features .features.wrapper {
+  body.home .features .wrapper {
     display: flex ;
     flex-flow: column nowrap;
     justify-content: center;
@@ -598,7 +598,7 @@ body > footer {
     align-items: stretch;
   }
 }
-body.home .features .feature.card {
+body.home .features .card {
   display: flex ;
   flex-flow: column nowrap;
   justify-content: center;
@@ -607,7 +607,7 @@ body.home .features .feature.card {
   -webkit-border-radius: 8px;
   -moz-border-radius: 8px;
   border-radius: 8px;
-  border: 1px solid #b3b3b3;
+  border: 1px solid #333;
   padding-top: 0;
   padding-bottom: 0;
   padding-left: 0;
@@ -619,7 +619,8 @@ body.home .features .feature.card {
   margin-left: 8px;
   margin-right: 8px;
 }
-body.home .features .feature.card .cool {
+body.home .features .card .cool {
+  position: relative;
   margin-top: 0;
   margin-bottom: 0;
   margin-left: 0;
@@ -630,22 +631,22 @@ body.home .features .feature.card .cool {
   padding-right: 0;
   overflow: hidden;
 }
-body.home .features .feature.card:nth-of-type(5n + 1) .cool {
+body.home .features .card:nth-of-type(5n + 1) .cool {
   background-color: #518999;
 }
-body.home .features .feature.card:nth-of-type(5n + 2) .cool {
+body.home .features .card:nth-of-type(5n + 2) .cool {
   background-color: #75B7B7;
 }
-body.home .features .feature.card:nth-of-type(5n + 3) .cool {
+body.home .features .card:nth-of-type(5n + 3) .cool {
   background-color: #995B58;
 }
-body.home .features .feature.card:nth-of-type(5n + 4) .cool {
+body.home .features .card:nth-of-type(5n + 4) .cool {
   background-color: #3D6B4B;
 }
-body.home .features .feature.card:nth-of-type(5n) .cool {
+body.home .features .card:nth-of-type(5n) .cool {
   background-color: #99B272;
 }
-body.home .features .feature.card .info {
+body.home .features .card .info {
   margin-top: 0;
   margin-bottom: 0;
   margin-left: 0;
@@ -656,23 +657,79 @@ body.home .features .feature.card .info {
   padding-right: 8px;
 }
 @media only screen and (min-width: 801px) {
-  body.home .features .feature.card {
+  body.home .features .card {
     flex-basis: 30%;
   }
 }
 @media only screen and (min-width: 501px) and (max-width: 800px) {
-  body.home .features .feature.card {
+  body.home .features .card {
     flex-basis: 45%;
   }
 }
 @media only screen and (max-width: 500px) {
-  body.home .features .feature.card {
+  body.home .features .card {
     flex-basis: 100%;
   }
 }
-body.home .features .feature.card .cool {
+body.home .features .card .cool {
   min-height: 128px;
   min-width: 128px;
+}
+body.home .features .card .cool > * {
+  height: 100%;
+  width: 100%;
+}
+body.home .features .card .cool .icon.wrapper {
+  display: table;
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #eee;
+  text-shadow: 0px 0px 0.2em #111, -2px -2px 0.2em #111, -2px 2px 0.2em #111, 2px -2px 0.2em #111, 2px 2px 0.2em #111;
+}
+@media only screen and (min-width: 801px) {
+  body.home .features .card .cool .icon.wrapper {
+    font-size: 3.6rem;
+  }
+}
+@media only screen and (min-width: 501px) and (max-width: 800px) {
+  body.home .features .card .cool .icon.wrapper {
+    font-size: 3rem;
+  }
+}
+@media only screen and (max-width: 500px) {
+  body.home .features .card .cool .icon.wrapper {
+    font-size: 2.4rem;
+  }
+}
+body.home .features .card .cool .icon.wrapper i {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+body.home .features #feature--schedules .feature.image {
+  background-image: url();
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-clip: padding-box;
+  filter: blur(1px);
+}
+body.home .features #feature--reminders .feature.image {
+  background-image: url();
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-clip: padding-box;
+  filter: blur(1px);
+}
+body.home .features #feature--database .feature.image {
+  background-image: url();
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-clip: padding-box;
+  filter: blur(1px);
 }
 body.home .target-users .target-users.wrapper {
   display: flex ;
@@ -701,7 +758,7 @@ body.home .target-users .target-user.card:nth-of-type(2n+1) {
   -webkit-border-radius: 8px;
   -moz-border-radius: 8px;
   border-radius: 8px;
-  border: 1px solid #b3b3b3;
+  border: 1px solid #333;
   padding-top: 0;
   padding-bottom: 0;
   padding-left: 0;
@@ -710,6 +767,7 @@ body.home .target-users .target-user.card:nth-of-type(2n+1) {
   flex-direction: row;
 }
 body.home .target-users .target-user.card:nth-of-type(2n+1) .cool {
+  position: relative;
   margin-top: 0;
   margin-bottom: 0;
   margin-left: 0;
@@ -754,7 +812,7 @@ body.home .target-users .target-user.card:nth-of-type(2n) {
   -webkit-border-radius: 8px;
   -moz-border-radius: 8px;
   border-radius: 8px;
-  border: 1px solid #b3b3b3;
+  border: 1px solid #333;
   padding-top: 0;
   padding-bottom: 0;
   padding-left: 0;
@@ -763,6 +821,7 @@ body.home .target-users .target-user.card:nth-of-type(2n) {
   flex-direction: row-reverse;
 }
 body.home .target-users .target-user.card:nth-of-type(2n) .cool {
+  position: relative;
   margin-top: 0;
   margin-bottom: 0;
   margin-left: 0;
@@ -808,7 +867,7 @@ body.home .target-users .target-user.card:nth-of-type(2n) .info {
     -webkit-border-radius: 8px;
     -moz-border-radius: 8px;
     border-radius: 8px;
-    border: 1px solid #b3b3b3;
+    border: 1px solid #333;
     padding-top: 0;
     padding-bottom: 0;
     padding-left: 0;
@@ -817,6 +876,7 @@ body.home .target-users .target-user.card:nth-of-type(2n) .info {
     flex-direction: column;
   }
   body.home .target-users .target-user.card:nth-of-type(1n) .cool {
+    position: relative;
     margin-top: 0;
     margin-bottom: 0;
     margin-left: 0;
@@ -853,6 +913,30 @@ body.home .target-users .target-user.card:nth-of-type(2n) .info {
     padding-right: 8px;
   }
 }
+body.home .target-users #target-user--casual-gardeners .target-user.image {
+  background-image: url();
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-clip: padding-box;
+  filter: blur(1px);
+}
+body.home .target-users #target-user--home-gardeners .target-user.image {
+  background-image: url();
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-clip: padding-box;
+  filter: blur(1px);
+}
+body.home .target-users #target-user--industry .target-user.image {
+  background-image: url();
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-clip: padding-box;
+  filter: blur(1px);
+}
 body.about .our-team .team-members.wrapper {
   display: flex ;
   flex-flow: row wrap;
@@ -869,7 +953,7 @@ body.about .our-team .team-member.card {
   -webkit-border-radius: 8px;
   -moz-border-radius: 8px;
   border-radius: 8px;
-  border: 1px solid #b3b3b3;
+  border: 1px solid #333;
   padding-top: 0;
   padding-bottom: 0;
   padding-left: 0;
@@ -882,6 +966,7 @@ body.about .our-team .team-member.card {
   margin-right: 8px;
 }
 body.about .our-team .team-member.card .cool {
+  position: relative;
   margin-top: 0;
   margin-bottom: 0;
   margin-left: 0;

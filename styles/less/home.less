@@ -1,6 +1,6 @@
 body.home {
   .features {
-    .features.wrapper {
+    .wrapper {
       @media @is-desktop {
         .flex-center(row ; nowrap ; stretch);
       }
@@ -12,7 +12,7 @@ body.home {
       }
     }
 
-    .feature.card {
+    .card {
       .x-card(t-b);
       .ma(@w-4);
       // flex-grow: 1;
@@ -30,8 +30,66 @@ body.home {
 
       .cool {
         .min-size-hw(@w-8);
+
+        & > * {
+          .size-hw(100%);
+        }
+  
+        .icon.wrapper {
+          display: table;
+          position: absolute;
+          top: 0; left: 0;
+  
+          color: @light-color;
+          .x-text-shadow();
+  
+          @media @is-desktop {
+            font-size: 3.6rem;
+          }
+          @media @is-tablet {
+            font-size: 3.0rem;
+          }
+          @media @is-phone {
+            font-size: 2.4rem;
+          }
+
+          i {
+            display: table-cell;
+            text-align: center;
+            vertical-align: middle;
+          }
+        }
       }
     }
+
+    ///*************************************
+    /// specific content
+    ///*************************************
+    #feature--schedules {
+      .feature.image {
+        .x-back-image(
+          @image:  url() ;
+          @filter: blur(@w-1)
+        )
+      }
+    }
+    #feature--reminders {
+      .feature.image {
+        .x-back-image(
+          @image:  url() ;
+          @filter: blur(@w-1)
+        )
+      }
+    }
+    #feature--database {
+      .feature.image {
+        .x-back-image(
+          @image:  url() ;
+          @filter: blur(@w-1)
+        )
+      }
+    }
+    ///*************************************
   }
 
   .target-users {
@@ -62,5 +120,34 @@ body.home {
         }
       }
     }
+
+    ///*************************************
+    /// specific content
+    ///*************************************
+    #target-user--casual-gardeners {
+      .target-user.image {
+        .x-back-image(
+          @image:  url() ;
+          @filter: blur(@w-1)
+        )
+      }
+    }
+    #target-user--home-gardeners {
+      .target-user.image {
+        .x-back-image(
+          @image:  url() ;
+          @filter: blur(@w-1)
+        )
+      }
+    }
+    #target-user--industry {
+      .target-user.image {
+        .x-back-image(
+          @image:  url() ;
+          @filter: blur(@w-1)
+        )
+      }
+    }
+    ///*************************************
   }
 }
