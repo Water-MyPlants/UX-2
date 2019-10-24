@@ -381,7 +381,7 @@ main section {
 .init-cta .hero-image {
   height: 100%;
   width: 100%;
-  background-image: url('https://images.unsplash.com/photo-1569135393135-c151f480100b');
+  background-image: url('images/jason-leung-DxK_D-dWJPo-unsplash.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -751,7 +751,7 @@ body.home .features .card .cool .icon.wrapper i {
   vertical-align: middle;
 }
 body.home .features #feature--schedules .feature.image {
-  background-image: url();
+  background-image: url('images/carly-kewley-YUiraXikd6Q-unsplash.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -759,7 +759,7 @@ body.home .features #feature--schedules .feature.image {
   filter: blur(2px);
 }
 body.home .features #feature--reminders .feature.image {
-  background-image: url();
+  background-image: url('images/ludovic-gauthier-vCKl84jpaZM-unsplash.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -767,7 +767,7 @@ body.home .features #feature--reminders .feature.image {
   filter: blur(2px);
 }
 body.home .features #feature--database .feature.image {
-  background-image: url();
+  background-image: url('images/markus-spiske-4PG6wLlVag4-unsplash.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
