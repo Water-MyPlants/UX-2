@@ -728,22 +728,8 @@ body.home .features .card .cool .icon.wrapper {
   top: 0;
   left: 0;
   color: #eee;
+  font-size: 5rem;
   text-shadow: 0px 0px 0.2em #111, -2px -2px 0.2em #111, -2px 2px 0.2em #111, 2px -2px 0.2em #111, 2px 2px 0.2em #111;
-}
-@media only screen and (min-width: 801px) {
-  body.home .features .card .cool .icon.wrapper {
-    font-size: 3.6rem;
-  }
-}
-@media only screen and (min-width: 501px) and (max-width: 800px) {
-  body.home .features .card .cool .icon.wrapper {
-    font-size: 3rem;
-  }
-}
-@media only screen and (max-width: 500px) {
-  body.home .features .card .cool .icon.wrapper {
-    font-size: 2.4rem;
-  }
 }
 body.home .features .card .cool .icon.wrapper i {
   display: table-cell;
