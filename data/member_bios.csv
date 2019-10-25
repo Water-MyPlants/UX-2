@@ -1,0 +1,15 @@
+name,role,lambda class,photo [url or insert],location.nation,location.state/province/region,location.city,blurb,git hub,twitter
+Brandon Pampuch,Backend Developer,WEB 22,,USA,Minnesota,Canton,Lead the team and built back end api for several clients including IOS and android.  Api was structued to all for authorizationand CRUD operations.  ,https://github.com/Brandon-Pampuch,https://twitter.com/PabloShampoo
+Jason Glassbrook,Web UI Developer,WEB 25,,USA,North Carolina,Carrboro,Designed and built the home and about pages. Enjoys running and hiking in the woods.,https://github.com/jason-glassbrook,
+Olamide Oredola,Web UI Developer,WEB EU 4,use slack photo.,Nigeria ,Ibadan,,UI Developer,,
+Robert Campbell,Web React I,WEB 24,use slack photo.,USA,Washington,Spokane,,https://github.com/Robert-D-Campbell,
+Ayomide Emmanuel Jones,Web React II,WEB EU 3,use slack photo.,Nigeria ,Lagos,Lagos,"Built State Management using redux, client side authentication, front end reactive functionality of the web app.",https://github.com/Ayormeday,https://twitter.com/Ayormeday
+Jonalynn Masters,iOS Engineer II,IOS 10,,USA,,,,,
+Andrew Ruiz,iOS Engineer II,IOS 10?,,Somewhere,,,,,
+William Chen,iOS Engineer III,IOS 9,,USA,California,Bay Area,,https://github.com/Willishere,
+Mai Tran,Android Engineer III,AND 3,use slack photo.,USA,California,Bay Area,Android Developer,https://github.com/msmaitran,
+Tyler Berrett,Android Engineer III,AND 3,use slack photo.,USA,Utah,,Android Developer,https://github.com/TylerBerrett,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,blurbs needed to balance the,,
+,,,,,,,page :),,
