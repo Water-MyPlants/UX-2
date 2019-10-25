@@ -24,11 +24,23 @@ body.about {
         .flex-center();
         .pa(@card-cool-pa);
 
+        background-color: @dark-color;
+
         img.team-member.photo {
           .size-hw(@w-8);
           .circle();
           border: @w-2 solid @light-color;
           background-color: @dark-color;
+        }
+      }
+
+      .info {
+        .social {
+          font-size: 2.4rem;
+
+          a {
+            .hover-decor(@fg-color: lighten(@main-color , 50%); @text-decor: none);
+          }
         }
       }
     }
