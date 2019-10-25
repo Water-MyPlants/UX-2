@@ -6,7 +6,7 @@
     "photo": "",
     "location": {
       "nation": "USA",
-      "state/province/region": "Minnesota",
+      "state_province_region": "Minnesota",
       "city": "Canton"
     },
     "blurb": "Lead the team and built back end api for several clients including IOS and android. Api was structued to all for authorizationand CRUD operations.",
@@ -20,7 +20,7 @@
     "photo": "",
     "location": {
       "nation": "USA",
-      "state/province/region": "North Carolina",
+      "state_province_region": "North Carolina",
       "city": "Carrboro"
     },
     "blurb": "Designed and built the home and about pages. Enjoys running and hiking in the woods.",
@@ -34,8 +34,8 @@
     "photo": "use slack photo",
     "location": {
       "nation": "Nigeria",
-      "state/province/region": "Ibadan",
-      "city": ""
+      "state_province_region": "Oyo State",
+      "city": "Ibadan"
     },
     "blurb": "UI Developer",
     "github": "",
@@ -48,7 +48,7 @@
     "photo": "use slack photo",
     "location": {
       "nation": "USA",
-      "state/province/region": "Washington",
+      "state_province_region": "Washington",
       "city": "Spokane"
     },
     "blurb": "",
@@ -62,7 +62,7 @@
     "photo": "use slack photo",
     "location": {
       "nation": "Nigeria",
-      "state/province/region": "Lagos",
+      "state_province_region": "Lagos State",
       "city": "Lagos"
     },
     "blurb": "Built State Management using redux, client side authentication, front end reactive functionality of the web app.",
@@ -76,7 +76,7 @@
     "photo": "",
     "location": {
       "nation": "USA",
-      "state/province/region": "",
+      "state_province_region": "",
       "city": ""
     },
     "blurb": "",
@@ -90,7 +90,7 @@
     "photo": "",
     "location": {
       "nation": "somewhere",
-      "state/province/region": "",
+      "state_province_region": "",
       "city": ""
     },
     "blurb": "",
@@ -104,7 +104,7 @@
     "photo": "",
     "location": {
       "nation": "USA",
-      "state/province/region": "California",
+      "state_province_region": "California",
       "city": "Bay Area"
     },
     "blurb": "",
@@ -118,7 +118,7 @@
     "photo": "use slack photo",
     "location": {
       "nation": "USA",
-      "state/province/region": "California",
+      "state_province_region": "California",
       "city": "Bay Area"
     },
     "blurb": "Android Developer",
@@ -132,7 +132,7 @@
     "photo": "use slack photo",
     "location": {
       "nation": "USA",
-      "state/province/region": "Utah",
+      "state_province_region": "Utah",
       "city": ""
     },
     "blurb": "Android Developer",
