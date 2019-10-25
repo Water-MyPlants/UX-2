@@ -721,9 +721,12 @@ body.home .features .card .cool {
   min-height: 256px;
   min-width: 256px;
 }
-body.home .features .card .cool > * {
+body.home .features .card .cool .image,
+body.home .features .card .cool .icon {
   height: 100%;
   width: 100%;
+  min-height: 256px;
+  min-width: 256px;
 }
 body.home .features .card .cool .icon.wrapper {
   display: table;
