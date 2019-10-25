@@ -1075,10 +1075,8 @@ body.about .our-team .team-member.card .cool {
   padding-bottom: 8px;
   padding-left: 8px;
   padding-right: 8px;
-  background-color: #111;
 }
 body.about .our-team .team-member.card .cool img.team-member.photo {
-  height: 128px;
   width: 128px;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
