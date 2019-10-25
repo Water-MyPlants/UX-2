@@ -780,19 +780,20 @@ body.home .target-users .target-user.card {
   margin-right: 8px;
   flex-basis: 100%;
 }
-body.home .target-users .target-user.card > * {
-  flex-basis: 50%;
-}
 body.home .target-users .target-user.card .cool {
   min-height: 256px;
+  flex-basis: 50%;
   flex-shrink: 1;
   flex-grow: 1;
 }
-body.home .target-users .target-user.card .cool > * {
+body.home .target-users .target-user.card .cool .image {
   height: 100%;
   width: 100%;
+  min-height: 256px;
+  min-width: 256px;
 }
 body.home .target-users .target-user.card .info {
+  flex-basis: 50%;
   flex-shrink: 4;
   flex-grow: 1;
 }

@@ -93,21 +93,20 @@ body.home {
       .ma(@w-4);
       flex-basis: 100%;
 
-      & > * {
-        flex-basis: 50%;
-      }
-
       .cool {
         min-height: (2 * @w-8);
+        flex-basis: 50%;
         flex-shrink: 1;
         flex-grow: 1;
 
-        & > * {
+        .image {
           .size-hw(100%);
+          .min-size-hw(2 * @w-8);
         }
       }
 
       .info {
+        flex-basis: 50%;
         flex-shrink: 4;
         flex-grow: 1;
       }
