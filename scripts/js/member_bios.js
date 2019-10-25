@@ -12,21 +12,35 @@ const pathOfJson = "../../data/member_bios.json";
 //   return kebab;
 // }
 
+const writeMemberBioSocialHtml = function (member) {
+  let social = "";
+  /// add github, if defined
+  if (member.github !== undefined || member.github.length > 0) {
+    social += `<a href="${member.github}"><i class="fab fa-github-square"></i></a>`;
+  }
+  /// add twitter, if defined
+  if (member.twitter !== undefined || member.twitter.length > 0) {
+    social += `<a href="${member.twitter}"><i class="fab fa-twitter-square"></i></a>`;
+  }
+  /// if there are social links, put them in paragraph
+  if (social.length > 0) {
+    social = `<p class=""team-member social>${social}</p>`
+  }
+  return social;
+}
+
 const writeMemberBioHtml = function (member , index) {
   console.log (member);
   return (`
-    <li class="team-member card" id="team-member-${index}">
+    <li class="team-member card" id="team-member--${index + 1}">
       <div class="cool">
         <img class="team-member photo" src="../../images/team-members/${member.photo}" alt="photo of ${member.name}">
       </div>
       <div class="info">
-        <h3 class="team-member name">FirstName LastName</h3>
-        <p class="team-member location">City, State/Province/Region, Nation</p>
-        <p class="team-member role">Role</p>
-        <p class="team-member blurb">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente tenetur
-          harum, dolore
-          ipsum ab, maxime repellat repudiandae labore facilis enim autem accusantium. Voluptas id quaerat adipisci
-          labore, omnis rem ullam.</p>
+        <h3 class="team-member name">${member.name}</h3>
+        <p class="team-member role">${member.role}</p>
+        <p class="team-member location">${member.city}, ${member.state_province_nation}, ${member.nation}</p>
+        ${writeMemberBioSocialHtml (member)}
       </div>
     </li>
   `);
@@ -38,8 +52,6 @@ $.getJSON (pathOfJson , function (dataJson) {
     writeMemberBioHtml
   );
   dataHtml.forEach(
-    (html) => {
-      console.log (html);
-    }
+    (html) => { console.log (html); }
   );
 });
