@@ -1,8 +1,14 @@
 # UX-2
 
-## Style Ideas
+## Deployed Website
 
-### Color Palette (working)
+Here it is!
+
+<https://nervous-dubinsky-5978ed.netlify.com/index.html>
+
+## Style
+
+### Color Palette
 
 -   <https://coolors.co/518999-75b7b7-995b58-3d6b4b-99b272>
 
@@ -22,7 +28,7 @@
 @brand-color: #F686BD;
 ```
 
-### Reference Images (working)
+### Reference Images
 
 -   <https://unsplash.com/collections/8812569/build-week-water-da-plants-survey>
 -   <https://unsplash.com/collections/8806934/build-week-water-da-plants-pink-flowers>
