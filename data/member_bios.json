@@ -3,7 +3,7 @@
     "name": "Brandon Pampuch",
     "role": "Backend Developer",
     "lambda class": "WEB 22",
-    "photo": "",
+    "photo": "brandon-pampuch.jpg",
     "location": {
       "nation": "USA",
       "state_province_region": "Minnesota",
@@ -17,7 +17,7 @@
     "name": "Jason Glassbrook",
     "role": "Web UI Developer",
     "lambda class": "WEB 25",
-    "photo": "",
+    "photo": "jason-glassbrook.jpg",
     "location": {
       "nation": "USA",
       "state_province_region": "North Carolina",
@@ -31,7 +31,7 @@
     "name": "Olamide Oredola",
     "role": "Web UI Developer",
     "lambda class": "WEB EU 4",
-    "photo": "use slack photo",
+    "photo": "olamide-oredola.jpg",
     "location": {
       "nation": "Nigeria",
       "state_province_region": "Oyo State",
@@ -45,7 +45,7 @@
     "name": "Robert Campbell",
     "role": "Web React I",
     "lambda class": "WEB 24",
-    "photo": "use slack photo",
+    "photo": "robert-campbell.jpg",
     "location": {
       "nation": "USA",
       "state_province_region": "Washington",
@@ -59,7 +59,7 @@
     "name": "Ayomide Emmanuel Jones",
     "role": "Web React II",
     "lambda class": "WEB EU 3",
-    "photo": "use slack photo",
+    "photo": "ayomide-emmanuel-jones.jpg",
     "location": {
       "nation": "Nigeria",
       "state_province_region": "Lagos State",
@@ -73,7 +73,7 @@
     "name": "Jonalynn Masters",
     "role": "iOS Engineer II",
     "lambda class": "IOS 10",
-    "photo": "",
+    "photo": "jonalynn-masters.png",
     "location": {
       "nation": "USA",
       "state_province_region": "",
@@ -87,7 +87,7 @@
     "name": "Andrew Ruiz",
     "role": "iOS Engineer II",
     "lambda class": "IOS 10?",
-    "photo": "",
+    "photo": "andrew-ruiz.jpg",
     "location": {
       "nation": "",
       "state_province_region": "",
@@ -101,7 +101,7 @@
     "name": "William Chen",
     "role": "iOS Engineer III",
     "lambda class": "IOS 9",
-    "photo": "",
+    "photo": "william-chen.jpg",
     "location": {
       "nation": "USA",
       "state_province_region": "California",
@@ -115,7 +115,7 @@
     "name": "Mai Tran",
     "role": "Android Engineer III",
     "lambda class": "AND 3",
-    "photo": "use slack photo",
+    "photo": "mai-tran.jpg",
     "location": {
       "nation": "USA",
       "state_province_region": "California",
@@ -129,7 +129,7 @@
     "name": "Tyler Berrett",
     "role": "Android Engineer III",
     "lambda class": "AND 3",
-    "photo": "use slack photo",
+    "photo": "tyler-berrett.jpg",
     "location": {
       "nation": "USA",
       "state_province_region": "Utah",
