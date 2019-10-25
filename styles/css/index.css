@@ -1077,7 +1077,7 @@ body.about .our-team .team-member.card .cool {
   padding-right: 8px;
 }
 body.about .our-team .team-member.card .cool img.team-member.photo {
-  width: 128px;
+  width: 256px;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
