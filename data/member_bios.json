@@ -1,0 +1,142 @@
+[
+  {
+    "name": "Brandon Pampuch",
+    "role": "Backend Developer",
+    "lambda class": "WEB 22",
+    "photo": "",
+    "location": {
+      "nation": "USA",
+      "state/province/region": "Minnesota",
+      "city": "Canton"
+    },
+    "blurb": "Lead the team and built back end api for several clients including IOS and android. Api was structued to all for authorizationand CRUD operations.",
+    "github": "https://github.com/Brandon-Pampuch",
+    "twitter": "https://twitter.com/PabloShampoo"
+  },
+  {
+    "name": "Jason Glassbrook",
+    "role": "Web UI Developer",
+    "lambda class": "WEB 25",
+    "photo": "",
+    "location": {
+      "nation": "USA",
+      "state/province/region": "North Carolina",
+      "city": "Carrboro"
+    },
+    "blurb": "Designed and built the home and about pages. Enjoys running and hiking in the woods.",
+    "github": "https://github.com/jason-glassbrook",
+    "twitter": ""
+  },
+  {
+    "name": "Olamide Oredola",
+    "role": "Web UI Developer",
+    "lambda class": "WEB EU 4",
+    "photo": "use slack photo",
+    "location": {
+      "nation": "Nigeria",
+      "state/province/region": "Ibadan",
+      "city": ""
+    },
+    "blurb": "UI Developer",
+    "github": "",
+    "twitter": ""
+  },
+  {
+    "name": "Robert Campbell",
+    "role": "Web React I",
+    "lambda class": "WEB 24",
+    "photo": "use slack photo",
+    "location": {
+      "nation": "USA",
+      "state/province/region": "Washington",
+      "city": "Spokane"
+    },
+    "blurb": "",
+    "github": "https://github.com/Robert-D-Campbell",
+    "twitter": ""
+  },
+  {
+    "name": "Ayomide Emmanuel Jones",
+    "role": "Web React II",
+    "lambda class": "WEB EU 3",
+    "photo": "use slack photo",
+    "location": {
+      "nation": "Nigeria",
+      "state/province/region": "Lagos",
+      "city": "Lagos"
+    },
+    "blurb": "Built State Management using redux, client side authentication, front end reactive functionality of the web app.",
+    "github": "https://github.com/Ayormeday",
+    "twitter": "https://twitter.com/Ayormeday"
+  },
+  {
+    "name": "Jonalynn Masters",
+    "role": "iOS Engineer II",
+    "lambda class": "IOS 10",
+    "photo": "",
+    "location": {
+      "nation": "USA",
+      "state/province/region": "",
+      "city": ""
+    },
+    "blurb": "",
+    "github": "",
+    "twitter": ""
+  },
+  {
+    "name": "Andrew Ruiz",
+    "role": "iOS Engineer II",
+    "lambda class": "IOS 10?",
+    "photo": "",
+    "location": {
+      "nation": "somewhere",
+      "state/province/region": "",
+      "city": ""
+    },
+    "blurb": "",
+    "github": "",
+    "twitter": ""
+  },
+  {
+    "name": "William Chen",
+    "role": "iOS Engineer III",
+    "lambda class": "IOS 9",
+    "photo": "",
+    "location": {
+      "nation": "USA",
+      "state/province/region": "California",
+      "city": "Bay Area"
+    },
+    "blurb": "",
+    "github": "https://github.com/Willishere",
+    "twitter": ""
+  },
+  {
+    "name": "Mai Tran",
+    "role": "Android Engineer III",
+    "lambda class": "AND 3",
+    "photo": "use slack photo",
+    "location": {
+      "nation": "USA",
+      "state/province/region": "California",
+      "city": "Bay Area"
+    },
+    "blurb": "Android Developer",
+    "github": "https://github.com/msmaitran",
+    "twitter": ""
+  },
+  {
+    "name": "Tyler Berrett",
+    "role": "Android Engineer III",
+    "lambda class": "AND 3",
+    "photo": "use slack photo",
+    "location": {
+      "nation": "USA",
+      "state/province/region": "Utah",
+      "city": ""
+    },
+    "blurb": "Android Developer",
+    "github": "https://github.com/TylerBerrett",
+    "twitter": ""
+  }
+]
