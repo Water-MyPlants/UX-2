@@ -16,11 +16,11 @@ const writeMemberBioSocialHtml = function (member) {
   let social = "";
   /// add github, if defined
   if (member.github !== undefined && member.github.length > 0) {
-    social += `<a href="${member.github}"><i class="fab fa-github-square"></i></a>`;
+    social += `<a class="to-github" href="${member.github}"><i class="fab fa-github-square"></i></a>`;
   }
   /// add twitter, if defined
   if (member.twitter !== undefined && member.twitter.length > 0) {
-    social += `<a href="${member.twitter}"><i class="fab fa-twitter-square"></i></a>`;
+    social += `<a class="to-twitter" href="${member.twitter}"><i class="fab fa-twitter-square"></i></a>`;
   }
   /// if there are social links, put them in paragraph
   if (social.length > 0) {
