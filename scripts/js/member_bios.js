@@ -15,16 +15,16 @@ const pathOfJson = "../../data/member_bios.json";
 const writeMemberBioSocialHtml = function (member) {
   let social = "";
   /// add github, if defined
-  if (member.github !== undefined || member.github.length > 0) {
+  if (member.github !== undefined && member.github.length > 0) {
     social += `<a href="${member.github}"><i class="fab fa-github-square"></i></a>`;
   }
   /// add twitter, if defined
-  if (member.twitter !== undefined || member.twitter.length > 0) {
+  if (member.twitter !== undefined && member.twitter.length > 0) {
     social += `<a href="${member.twitter}"><i class="fab fa-twitter-square"></i></a>`;
   }
   /// if there are social links, put them in paragraph
   if (social.length > 0) {
-    social = `<p class="team-member social">${social}</p>`
+    social = `<p class="team-member social">${social}</p>`;
   }
   return social;
 }
@@ -39,7 +39,7 @@ const writeMemberBioHtml = function (member , index) {
       <div class="info">
         <h3 class="team-member name">${member.name}</h3>
         <p class="team-member role">${member.role}</p>
-        <p class="team-member location">${member.city}, ${member.state_province_nation}, ${member.nation}</p>
+        <p class="team-member location">${member.location.city}, ${member.location.state_province_region}, ${member.location.nation}</p>
         ${writeMemberBioSocialHtml (member)}
       </div>
     </li>
