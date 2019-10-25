@@ -24,7 +24,7 @@ const writeMemberBioSocialHtml = function (member) {
   }
   /// if there are social links, put them in paragraph
   if (social.length > 0) {
-    social = `<p class=""team-member social>${social}</p>`
+    social = `<p class="team-member social">${social}</p>`
   }
   return social;
 }
